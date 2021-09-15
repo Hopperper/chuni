@@ -134,6 +134,7 @@ main h2+p{
     z-index: 1;
 }
 
+
 /*フッター*/
 .footer{
     margin-top: 80px;
@@ -148,4 +149,26 @@ main h2+p{
 .menus > *{
     width: 50%;
     margin-bottom: 60px;
+}
+
+.menu-genre li{
+    margin-right: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.menu-genre li:not(:last-child){
+    margin-bottom: 12px;
+}
+
+.menu-sns ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-sns img{
+    margin-right: 32px;
+    margin-bottom: 20px;
+    opacity: 0.8;
 }
